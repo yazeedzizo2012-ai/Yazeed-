@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100b1d">
+<title>ZIZO SERVICES | إنشاء حساب</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap');
+:root{--bg:#0d0916;--purple:#a879ff;--pink:#e0a2ff;--text:#f8f4ff;--muted:#aaa0bb}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 75% 20%,#291741 0,transparent 40%),radial-gradient(ellipse at 5% 90%,#211332 0,transparent 38%),var(--bg);color:var(--text);font-family:Cairo,Tahoma,sans-serif}
+button,input{font:inherit}button{cursor:pointer}.top{height:82px;max-width:1100px;margin:auto;padding:0 22px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;color:white;text-decoration:none}.mark{width:43px;height:43px;border-radius:14px;display:grid;place-items:center;font-weight:800;font-size:23px;background:linear-gradient(145deg,#c7a0ff,#7542ca);box-shadow:0 8px 28px #9b6cff35}.brand b{display:block;letter-spacing:2px}.brand small{display:block;letter-spacing:3px;color:#b6a6d1;font-size:9px;margin-top:-4px}.secure{font-size:11px;color:#c5b9d8}.secure i{display:inline-block;width:7px;height:7px;background:#b794ff;border-radius:50%;margin-left:7px}
+.layout{max-width:1080px;margin:24px auto 45px;padding:0 22px;display:grid;grid-template-columns:1fr minmax(330px,450px);gap:65px;align-items:center}.intro{padding:20px 0}.eyebrow{display:inline-block;padding:7px 14px;border:1px solid #b88cff35;border-radius:99px;background:#a879ff0d;color:#d7c3ff;font-size:12px}.intro h1{font-size:clamp(37px,5vw,58px);line-height:1.45;margin:23px 0 12px;font-weight:800}.intro h1 span{background:linear-gradient(90deg,#d6b7ff,#9b70ff 65%,#efb4ff);background-clip:text;color:transparent}.intro p{max-width:430px;color:#b7adc9;font-size:14px;line-height:2}.features{display:grid;gap:18px;margin-top:30px}.feature{display:flex;align-items:center;gap:12px}.ico{width:38px;height:38px;border-radius:12px;background:#a879ff17;border:1px solid #b88cff2a;display:grid;place-items:center;color:#d3b6ff}.feature b,.feature small{display:block}.feature b{font-size:13px}.feature small{font-size:11px;color:#9c91b1}
+.card{padding:29px 29px 0;border:1px solid #d3baff30;border-radius:23px;background:linear-gradient(145deg,#261c3bf2,#140f22f5);box-shadow:0 24px 90px #0006;backdrop-filter:blur(18px);overflow:hidden}.heading{display:flex;align-items:center;gap:12px;margin-bottom:22px}.heading h2{font-size:19px;margin:0}.heading p{font-size:11px;color:var(--muted);margin:2px 0 0}.tabs{display:grid;grid-template-columns:1fr 1fr;padding:4px;border:1px solid #c8a9ff26;border-radius:12px;background:#100b1b;margin-bottom:22px}.tab{border:0;border-radius:9px;background:transparent;color:#a99dbb;font-size:12px;padding:10px}.tab.active{background:linear-gradient(100deg,#8756d8,#a06beb);color:white}.field{margin-bottom:15px}.field label{display:block;font-size:12px;margin-bottom:7px;color:#e5dcf2}.field input{width:100%;border:1px solid #c8a9ff26;background:#100b1d80;border-radius:11px;padding:12px 13px;color:white;outline:none;font-size:12px}.field input:focus{border-color:#b28affaa;box-shadow:0 0 0 3px #a879ff17}.field input::placeholder{color:#726783}.rowlabel{display:flex;justify-content:space-between}.hint{font-size:10px;color:#9385a9}.pass{position:relative}.pass input{padding-left:58px}.show{position:absolute;left:8px;top:50%;transform:translateY(-50%);border:0;background:transparent;color:#c4a6ff;font-size:10px}.primary,.secondary{width:100%;border-radius:11px;padding:13px 15px;font-size:13px;font-weight:700}.primary{border:0;color:white;background:linear-gradient(100deg,#8b56df,#a56bea);box-shadow:0 8px 24px #995fe32e;display:flex;justify-content:space-between}.secondary{margin-top:10px;border:1px solid #c8a9ff26;background:transparent;color:white}.message{font-size:11px;color:#ff9ba8;min-height:19px;line-height:1.7}.note{font-size:10px;line-height:1.9;text-align:center;color:#817691;margin:15px 0 22px}.foot{margin:0 -29px;padding:15px;border-top:1px solid #ffffff0a;text-align:center;color:#887c9b;font-size:10px}.hidden{display:none!important}.profile{padding:18px;border:1px solid #c8a9ff26;background:#100b1d80;border-radius:14px;margin:20px 0}.profile strong,.profile span{display:block;overflow-wrap:anywhere}.profile span{font-size:11px;color:#aaa0bb}.warning{font-size:11px;color:#d9c4ff;line-height:1.8;background:#a879ff12;padding:12px;border-radius:10px;margin-top:14px}.bottom{text-align:center;color:#766b88;font-size:10px;padding:0 12px 24px}
+@media(max-width:800px){.layout{grid-template-columns:1fr;gap:18px;max-width:500px;margin-top:5px}.intro{padding:8px 0 0}.intro h1{font-size:36px;margin:14px 0 7px}.intro p{font-size:12px}.features{display:none}.top{height:70px}.card{padding:23px 19px 0}.foot{margin:0 -19px}} 
+</style>
+</head>
+<body>
+<header class="top">
+<a class="brand" href="#"><span class="mark">Z</span><span><b>ZIZO</b><small>SERVICES</small></span></a>
+<span class="secure"><i></i> مساحة حسابك</span>
+</header>
+<main class="layout">
+<section class="intro">
+<div class="eyebrow">✦ خدماتك في مكان واحد</div>
+<h1>ابدأ رحلتك<br><span>بطريقتك الخاصة</span></h1>
+<p>أنشئ حسابك وادخل إلى مساحتك الشخصية. تجربة بسيطة، تصميم أنيق، وخدماتك في مكان واحد.</p>
+<div class="features">
+<div class="feature"><span class="ico">✓</span><span><b>تجربة سهلة</b><small>خطوات واضحة من البداية</small></span></div>
+<div class="feature"><span class="ico">◇</span><span><b>اهتمام بالخصوصية</b><small>واجهة مرتبة وسهلة الاستخدام</small></span></div>
+<div class="feature"><span class="ico">↗</span><span><b>مساحتك الشخصية</b><small>واجهة خاصة بحسابك</small></span></div>
+</div>
+</section>
+<section class="card">
+<div id="auth">
+<div class="heading"><span class="mark">Z</span><div><h2 id="title">إنشاء حساب جديد</h2><p id="subtitle">سجّل بياناتك وابدأ الآن</p></div></div>
+<div class="tabs"><button class="tab active" id="regTab" type="button">إنشاء حساب</button><button class="tab" id="loginTab" type="button">تسجيل الدخول</button></div>
+<form id="form" novalidate>
+<div class="field" id="nameField"><label for="name">الاسم</label><input id="name" autocomplete="name" maxlength="60" placeholder="اكتب اسمك" required></div>
+<div class="field"><label for="email">البريد الإلكتروني</label><input id="email" type="email" autocomplete="email" maxlength="254" placeholder="name@example.com" required></div>
+<div class="field"><div class="rowlabel"><label for="password">كلمة السر</label><span class="hint" id="hint">8 أحرف على الأقل</span></div><div class="pass"><input id="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" placeholder="أنشئ كلمة سر" required><button class="show" type="button" id="show">إظهار</button></div></div>
+<div class="field" id="confirmField"><label for="confirm">تأكيد كلمة السر</label><input id="confirm" type="password" maxlength="128" placeholder="اكتب كلمة السر مرة أخرى"></div>
+<div class="message" id="message" role="status" aria-live="polite"></div>
+<button class="primary" type="submit"><span id="submitText">إنشاء حساب</span><span>←</span></button>
+</form>
+<div class="warning">نسخة واجهة ثابتة مناسبة للرفع على GitHub Pages. تسجيل الحسابات الحقيقي والآمن يحتاج خدمة مصادقة أو خادمًا؛ هذه الصفحة لا تحفظ كلمات السر ولا تنشئ حسابات حقيقية.</div>
+<p class="note">بالمتابعة، أنت توافق على استخدام الموقع وفقًا لشروطه وسياسة الخصوصية.</p>
+</div>
+<div id="done" class="hidden">
+<div class="heading"><span class="mark">✓</span><div><h2 id="doneTitle">تم التحقق من النموذج</h2><p>عرض تجريبي للواجهة فقط</p></div></div>
+<div class="profile"><strong id="doneName"></strong><span id="doneEmail"></span></div>
+<p class="warning">ده عرض تجريبي فقط، مش حساب محفوظ على الإنترنت. لتفعيل التسجيل الحقيقي، اربط الموقع بخدمة مصادقة مثل Firebase Authentication أو Supabase Auth.</p>
+<button class="secondary" id="back" type="button">العودة للنموذج</button>
+</div>
+<div class="foot">✦ ZIZO SERVICES · حسابك، بشكل أبسط</div>
+</section>
+</main>
+<footer class="bottom">© <span id="year"></span> ZIZO SERVICES — جميع الحقوق محفوظة</footer>
+<script>
+const $=id=>document.getElementById(id);let mode="register";
+$("year").textContent=new Date().getFullYear();
+function setMode(next){mode=next;const reg=mode==="register";$("regTab").classList.toggle("active",reg);$("loginTab").classList.toggle("active",!reg);$("nameField").classList.toggle("hidden",!reg);$("confirmField").classList.toggle("hidden",!reg);$("hint").textContent=reg?"8 أحرف على الأقل":"";$("password").autocomplete=reg?"new-password":"current-password";$("title").textContent=reg?"إنشاء حساب جديد":"أهلًا بعودتك";$("subtitle").textContent=reg?"سجّل بياناتك وابدأ الآن":"سجّل دخولك إلى حسابك";$("submitText").textContent=reg?"إنشاء حساب":"تسجيل الدخول";$("message").textContent="";}
+$("regTab").onclick=()=>setMode("register");$("loginTab").onclick=()=>setMode("login");
+$("show").onclick=()=>{const p=$("password");p.type=p.type==="password"?"text":"password";$("show").textContent=p.type==="password"?"إظهار":"إخفاء";};
+$("form").addEventListener("submit",e=>{e.preventDefault();$("message").textContent="";const name=$("name").value.trim(),email=$("email").value.trim(),password=$("password").value,confirm=$("confirm").value;
+if(mode==="register"&&name.length<2){$("message").textContent="اكتب اسمًا من حرفين على الأقل.";return;}
+if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){$("message").textContent="اكتب بريدًا إلكترونيًا صحيحًا.";return;}
+if(password.length<8||password.length>128){$("message").textContent="كلمة السر لازم تكون من 8 إلى 128 حرفًا.";return;}
+if(mode==="register"&&password!==confirm){$("message").textContent="كلمتا السر غير متطابقتين.";return;}
+$("doneTitle").textContent=mode==="register"?"تم التحقق من بيانات التسجيل":"تم التحقق من بيانات الدخول";
+$("doneName").textContent=mode==="register"?name:"مرحبًا بعودتك";$("doneEmail").textContent=email;
+$("auth").classList.add("hidden");$("done").classList.remove("hidden");$("form").reset();});
+$("back").onclick=()=>{$("done").classList.add("hidden");$("auth").classList.remove("hidden");setMode(mode);};
+</script>
+</body>
+</html>
